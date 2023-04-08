@@ -1,0 +1,6 @@
+target/*
+.vscode/*
+*.bin
+src/person_sensor_particle.cpp
+src/vibration_sensor.cpp
+project.properties
