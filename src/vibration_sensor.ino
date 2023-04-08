@@ -1,3 +1,13 @@
+/*
+    Vibration Sensor for clothes dryer alert.
+
+    20230408 seems to be working.
+
+    (cc) 2023 Bob Glicksman, Jim Schrempp Attribution-NonCommercial-ShareAlike 4.0 International
+    https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+*/
+
 #include "Arduino.h"
 
 // How long to wait between reading the sensor. The sensor can be read as
