@@ -17,7 +17,9 @@ const int32_t SAMPLE_DELAY_MS = 10;
 
 Logger mainLog("app.main");
 
-SerialLogHandler logHandler(LOG_LEVEL_INFO);
+SerialLogHandler logHandler(LOG_LEVEL_WARN, { // Logging level for non-application messages
+    { "app", LOG_LEVEL_INFO }, // Default logging level for all application messages
+});
 
 /* ------------------------------ */
 // function to move the terminal cursor back up to overwrite previous data printout
